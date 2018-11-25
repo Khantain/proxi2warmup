@@ -28,4 +28,16 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>WebContent/agency.min.css</name>
+			<type>1</type>
+			<location>C:/Users/CIA/Desktop/startbootstrap-agency-gh-pages/css/agency.min.css</location>
+		</link>
+		<link>
+			<name>WebContent/img</name>
+			<type>2</type>
+			<location>C:/Users/CIA/Desktop/startbootstrap-agency-gh-pages/img</location>
+		</link>
+	</linkedResources>
 </projectDescription>
