@@ -34,6 +34,7 @@ public class IndexServlet extends HttpServlet {
 	if (username.equals("toto") && password.equals("toto")){
 		resp.sendRedirect(this.getServletContext().getContextPath() + "/home.html");
 	} else {
+		req.setAttribute("error", "error");
 		this.getServletContext().getRequestDispatcher("/WEB-INF/views/conn.jsp").forward(req, resp);
 	}
 	

@@ -10,17 +10,16 @@
 <body>
 <form class="form conn"  action="index.html"  method="post">
 <div>
-<c:if test="${!username != 'toto'}">
-<c:if test="${!password != 'toto'}">
+<c:if test="${error == 'error'}">
 <p>Identifiant et/ou mot de passe incorrect ! Veuillez entrer des identifiants valides.</p>
 </c:if>
-</c:if>
+
 <label for="username" >Identifiant :</label>
-<input id="username" name="username">
+<input id="username" name="username" autocomplete="off">
 </div>
 <div>
 <label for="password" >Mot de passe :</label>
-<input id="password" name="password">
+<input id="password" name="password" type="password" autocomplete="off">
 </div>
 
 <button>Connexion</button>
